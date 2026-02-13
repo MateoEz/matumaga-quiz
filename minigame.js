@@ -61,7 +61,7 @@ function spawnKitty() {
             kitty.style.transform = `translateY(0) rotate(${rotation}deg)`; // Go back down
             setTimeout(() => {
                 if (kitty.parentNode) removeKitty(kitty);
-            }, 600); // Wait for transition
+            }, 599); // Wait for transition
         }
     }, STAY_DURATION);
 }
